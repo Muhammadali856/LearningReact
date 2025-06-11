@@ -1,3 +1,6 @@
+// All styles in index.css file
+// Most of learning materials are there
+
 import profilePic from './assets/cat-picture-profile.webp';
 
 function Card(){
