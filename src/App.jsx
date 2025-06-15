@@ -1,13 +1,12 @@
-import Student from './Student.jsx'; 
+import UserGreeting from './UserGreeting';
 
 function App() {
   return (
     <>
-      <Student name="SpongeBob" age={13} isStudent={true} />
-      <Student name="Patrick" age={17} isStudent={false} />
-      <Student name="Squidward" age={23} isStudent={false} />
-      <Student name="Sandy" age={20} isStudent={true} />
-      <Student />
+      <UserGreeting isLoggedIn={true} username="SoleLordAli" />
+      <UserGreeting isLoggedIn={false} username="SoleLordAli" />
+      <UserGreeting isLoggedIn={true} />
+
     </>
   );
 }
