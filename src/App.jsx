@@ -1,24 +1,15 @@
-// HOW TO STYLE REACT COMPONENTS WITH CSS
-// ------------------------------------
-// (not including external frameworks or preprocessors)
-
-// 1. EXTERNAL
-// 2. MODULES
-// 3. INLINE
-
-
-import Button1 from './Button1.jsx';
-import Button2 from './Button2.jsx';
-import Button3 from './Button/Button3.jsx';
+import Student from './Student.jsx'; 
 
 function App() {
   return (
     <>
-      <Button1 />
-      <Button2 />
-      <Button3 />
+      <Student name="SpongeBob" age={13} isStudent={true} />
+      <Student name="Patrick" age={17} isStudent={false} />
+      <Student name="Squidward" age={23} isStudent={false} />
+      <Student name="Sandy" age={20} isStudent={true} />
+      <Student />
     </>
-  );  
+  );
 }
 
-export default App
+export default App;
