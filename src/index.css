@@ -1,24 +1,21 @@
-.list-category{
-  font-size: 2.5em;
-  font-weight: bold;
-  color: hsl(0, 0%, 20%);
-  margin-bottom: 10px;
-  text-align: center;
-  border: 3px solid;
-  border-radius: 5px;
-  background-color: hsl(198, 86%, 45%);
+.Counter  h1 {
+  font-size: 8rem;
+  color: #333;
 }
-.list-items li{
-  font-size: 2em;
-  list-style: none;
-  color: hsl(0, 0%, 25%);
-  text-align: center;
-  margin: 5px 0;
-  padding: 10px;
-  border: 2px solid hsl(198, 86%, 45%);
-  border-radius: 5px;
-}
-.list-items li:hover{
-  background-color: hsl(198, 86%, 60%);
+.Counter  button {
+  font-size: 2rem;
+  padding: 10px 20px;
+  margin: 10px;
   cursor: pointer;
+  text-align: center;
+}
+.Counter{
+  font-size: 2rem;
+  color: #666;
+  text-align: center;
+  border: 2px solid #a8dadc; /* A nice light blue */
+  border-radius: 10px; /* Gently rounded corners */
+  padding: 15px; /* Space inside the border */
+  background-color: #f1faee; /* A very light background */
+  display: inline-block;
 }
