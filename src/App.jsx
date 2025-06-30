@@ -1,9 +1,9 @@
-import ToDoApp from './To-do-app';
+import MyComponent from './MyComponent.jsx';
 
 function App() {
   return (
     <>
-      <ToDoApp />
+      <MyComponent />
     </>
   );
 }
