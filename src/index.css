@@ -1,27 +1,5 @@
-body{
-    background-image: url(https://i.pinimg.com/736x/ae/10/8a/ae108a61450e7ad23dc17b3d5ae379de.jpg);
-    background-size: cover; /* Optional: This is often useful to make the image cover the whole background */
-    background-repeat: no-repeat; /* Optional: Prevents the image from repeating if it's smaller than the background */
-    background-position: center;
-    background-attachment: fixed;
-    margin: 0; /* Reset default margin */
-    display: flex;
-    justify-content: center;
-    min-height: 100vh; /* Ensures the body takes at least the full height of the viewport */
-    align-items: center; /* Centers the content vertically */
-}
-.clock-container{
-    backdrop-filter: blur(5px);
-    width: 30vw;
-    padding: 10px 0;
-}
-.clock{
-    color: white;
-    font-size: 6rem;
-    font-weight: bold;
-    font-family: monospace;
-    text-align: center;
-    text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
-
-
+.box{
+    border: 3px solid;
+    padding: 25px;
+    
 }
